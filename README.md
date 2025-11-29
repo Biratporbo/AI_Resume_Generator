@@ -68,45 +68,7 @@ Fully responsive modern UI
 
 ## 🧠 AI Prompt Format (Used for Resume Generation)
 
-Your backend converts the user’s free-text description into the following structured JSON format:
-
-{
-  "fullName": "",
-  "email": "",
-  "phone": "",
-  "location": "",
-  "linkedin": "",
-  "github": "",
-  "portfolio": "",
-  "summary": "",
-  "skills": [
-    { "title": "", "level": "" }
-  ],
-  "experience": [
-    {
-      "jobTitle": "",
-      "company": "",
-      "location": "",
-      "startDate": "",
-      "endDate": "",
-      "responsibilities": [""]
-    }
-  ],
-  "education": [
-    {
-      "degree": "",
-      "institution": "",
-      "year": ""
-    }
-  ],
-  "projects": [
-    {
-      "title": "",
-      "description": "",
-      "technologies": ""
-    }
-  ]
-}
+"I am a Java Developer with 2 years of experience in building scalable backend applications using Spring Boot and Microservices. I have expertise in MySQL, and MongoDB. I am proficient in AWS and Docker for cloud deployments. I have worked at ABC Tech as a Software Engineer . I hold a Bachelor's degree in Computer Application. I have built an Expense Management System using Spring Boot and React.js. I am AWS Certified Solutions Architect and passionate about open-source contributions."
 
 ## 📸 Screenshots
 
@@ -143,3 +105,21 @@ Your backend converts the user’s free-text description into the following stru
 
 6. AI suggests improvements + missing skills
 
+## 🏁 How to Run the Project
+### Backend Setup
+cd backend
+mvn spring-boot:run
+
+### Frontend Setup
+cd frontend
+npm install
+npm start
+
+### 🤝 Contributions
+
+Pull requests are welcome!
+Feel free to open issues for new feature suggestions or bug reports.
+
+## 📜 License
+
+MIT License
